@@ -1,0 +1,18 @@
+{
+  "name": "code-coverage-example",
+  "description": "Demonstrates how I usually do code-coverage reports",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "devDependencies": {
+    "mocha": "1.7.4",
+    "should": "1.2.1"
+  }
+}
