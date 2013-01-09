@@ -1,5 +1,6 @@
+var jscov = require('jscov');
 var should = require('should');
-var example = require('../src/index');
+var example = require(jscov.cover('..', 'src', 'index'));
 
 describe("reverseTwice", function() {
 

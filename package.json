@@ -9,9 +9,12 @@
     "node": ">= 0.8"
   },
   "scripts": {
+    "coverage": "jscov src .cov && JSCOV=.cov mocha --reporter mocha-term-cov-reporter test/*.js",
     "test": "mocha test/*.js"
   },
   "devDependencies": {
+    "jscov": "0.2.0",
+    "mocha-term-cov-reporter": "0.1.0",
     "mocha": "1.7.4",
     "should": "1.2.1"
   }
